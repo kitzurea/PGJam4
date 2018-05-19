@@ -21,5 +21,7 @@ if (plane + vinput = 1 || plane + vinput = 0 || plane + vinput = -1)
 		y = 590;
 	}
 }
-if (x + hinput * speed !< thing && x + hinput * speed !>
-x = x + hinput * spd;//Moves the player
+if (x - spd > -1 && x + spd < 1217)
+{
+	x = x + hinput * spd;//Moves the player
+}
