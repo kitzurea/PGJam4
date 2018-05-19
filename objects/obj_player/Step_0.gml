@@ -10,7 +10,7 @@ if (plane + vinput = 1 || plane + vinput = 0 || plane + vinput = -1)
 	plane = plane + vinput;//Updates the plane variable
 	if (plane = 1)//Chooses where to place the player based on the plane they're on
 	{
-		y = 130;
+		y = 144;
 	}
 	else if (plane = 0)
 	{
@@ -18,10 +18,8 @@ if (plane + vinput = 1 || plane + vinput = 0 || plane + vinput = -1)
 	}
 	else
 	{
-		y = 590;
+		y = 576;
 	}
 }
-if (x - spd > -1 && x + spd < 1217)
-{
-	x = x + hinput * spd;//Moves the player
-}
+x = x + hinput * spd;//Moves the player
+image_angle = point_direction(x,y,mouse_x,mouse_y);//Sets th direction towards the x and y of the mouse
