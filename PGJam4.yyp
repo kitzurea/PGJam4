@@ -95,11 +95,11 @@
             }
         },
         {
-            "Key": "4b69716d-ebdc-4b06-a251-45a72326ec4e",
+            "Key": "5dc44d51-cc4a-44ee-b0d2-f5a3749afc4c",
             "Value": {
-                "id": "b02d1cbb-a7a1-4209-a8b7-8ec2ef32e45d",
-                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
-                "resourceType": "GMObject"
+                "id": "e014476a-46f1-4df8-a4f3-d64d5fc21a6d",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
