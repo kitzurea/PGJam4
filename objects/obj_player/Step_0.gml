@@ -1,8 +1,7 @@
+///@description Input and Movement
 //Get Input
 hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vinput = keyboard_check_pressed(ord("W")) - keyboard_check_pressed(ord("S"));
-
-show_debug_message(x)
 
 //Checks to see if the input given will change the plane
 if (plane + vinput = 1 || plane + vinput = 0 || plane + vinput = -1)
@@ -22,4 +21,5 @@ if (plane + vinput = 1 || plane + vinput = 0 || plane + vinput = -1)
 	}
 }
 x = x + hinput * spd;//Moves the player
-image_angle = point_direction(x,y,mouse_x,mouse_y);//Sets th direction towards the x and y of the mouse
+image_angle = point_direction(x,y,mouse_x,mouse_y);//Sets the direction towards the x and y of the mouse
+direction = image_angle;
