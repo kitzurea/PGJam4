@@ -98,7 +98,7 @@
             "Key": "44ff8e96-6bbf-489f-857f-da8103ddef6d",
             "Value": {
                 "id": "e46d5c41-43d9-4d79-baf8-029166bf4dad",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_main\\rm_main.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "91f1bdb1-a10e-4667-aaa9-4216a2a0b5c3",
+            "Value": {
+                "id": "10cc2977-8546-46b1-ad17-8859e84b1d64",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be087b47-881e-4512-8a5a-56c8f7da745c",
             "Value": {
                 "id": "b9d584fe-e5b9-477e-b0c1-009d76decafa",
@@ -220,6 +228,14 @@
                 "id": "27849aae-0f56-4f18-b07d-70432a021ced",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2d8496a-0e12-4664-8ba1-f1c48e082100",
+            "Value": {
+                "id": "3317825b-cde1-4259-8b7c-a87441e588ee",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
